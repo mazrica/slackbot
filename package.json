@@ -1,7 +1,7 @@
 {
   "name": "slackbot-docbase",
   "version": "1.0.0",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:mazrica/slackbot-docbase.git",
   "author": "erukiti - Shunsuke Sasaki <shunsuke.sasaki@mazrica.com>",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
-    "build": "tsc --outDir dist"
+    "build": "tsc --outDir dist",
+    "start": "yarn build && node dist/index.js"
   }
 }
