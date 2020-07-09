@@ -16,6 +16,6 @@
   },
   "scripts": {
     "build": "tsc --outDir dist",
-    "start": "yarn build && node dist/index.js"
+    "start": "npm run build && node dist/index.js"
   }
 }
