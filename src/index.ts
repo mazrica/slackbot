@@ -6,7 +6,7 @@ const app = new App({
 })
 
 app.event('app_home_opened', async ({ event, say }) => {
-  say(`hello world, <@${event.user}`)
+  say(`hello world, <@${event.user}>!`)
 })
 
 const run = async () => {
